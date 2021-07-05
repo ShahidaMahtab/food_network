@@ -106,7 +106,7 @@ p {
 /* ****************************end of about me********************************** */
 /* **************************recipes********************* */
 .recipe-text {
- margin: 10px;
+ margin: 20px 10px 10px 10px;
  padding:10px 40px;
 }
 .recipe-text h1 {
@@ -157,3 +157,24 @@ p {
 }
 
 /* **************************end of recipes********************* */
+/* ***************************followers*********************************** */
+
+.follower{
+ margin: 20px 10px;
+ padding-left: 20px;
+ display: flex;
+ text-align: center;
+}
+.foll{
+ margin: 30px;
+ padding: 20px;
+ width: 33.3%;
+ text-transform: capitalize;
+ background: #f8f4f4;
+}
+.foll h1{
+ text-align: center;
+ color: #0e0e13;
+ font-size: 50px;
+}
+/* ***************************end of followers*********************************** */
