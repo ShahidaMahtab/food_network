@@ -14,6 +14,7 @@ header {
 }
 
 header h1 {
+ font-size: 40px;
  padding: 5px 0 5px 20px;
  color: #fff;
 }
@@ -172,19 +173,23 @@ p {
 
 /* ***************************followers*********************************** */
 
+.foll-sec {
+ margin: 20px 40px;
+ padding: 40px;
+}
+
 .follower {
- margin: 20px 10px;
- padding-left: 20px;
+ margin: 20px 40px;
  display: flex;
  text-align: center;
 }
 
 .foll {
- margin: 30px;
+ margin: 20px 0;
  padding: 20px;
  width: 33.3%;
  text-transform: capitalize;
- background: #f8f4f4;
+ background: #f3eeee;
 }
 
 .foll h1 {
@@ -195,6 +200,11 @@ p {
 
 /* ***************************end of followers*********************************** */
 /***************************** contact **********************************************/
+.contact-sec {
+ margin: 50px 40px;
+ padding: 20px 40px;
+}
+
 .contact-title {
  text-align: center;
 }
@@ -206,29 +216,29 @@ p {
 .contact {
  font-size: 20px;
  margin: 20px;
- color: #000008;
+ padding: 80px 100px;
+ color: #fff;
  background: #fff;
 }
 
 .form-sec {
- padding: 20px;
+ padding: 40px;
+ background: #000008;
+ border-radius: 10px;
+ box-shadow: 10px 10px 40px #4b4848;
 }
 
 .form-grp {
- margin: 20px 40px;
- padding: 20px 40px;
-}
-
-.submitBtn {
- display: inline-block;
- margin-left: 90px;
- margin-bottom: 30px;
+ padding: 10px 40px;
 }
 
 form input {
- padding: 10px;
+ padding: 10px 0;
  font-size: 18px;
+ text-transform: capitalize;
 }
+
+
 
 /* ******************************end of contact******************** */
 
